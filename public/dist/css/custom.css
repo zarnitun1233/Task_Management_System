@@ -1,0 +1,6 @@
+/*for responsive user-list design*/
+@media screen and (max-width: 700px) {
+  .responsive {
+    display: none;
+  }
+}
