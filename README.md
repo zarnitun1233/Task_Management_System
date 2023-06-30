@@ -1,66 +1,64 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Task_Management_System
+Responsive Task Management System with Laravel including Admin Dashboard
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+#### There is 1 admin and the others are users (admin can add new users, update users, delete users and view existing users).
+#### Features
+###### - Task Prioritization
+###### - Due Date
+###### - Task Status Update
+###### - User Notification
+###### - Authentication
+###### - Authorization
+###### - Responsive Website
+###### - User CRUD
+###### - Task CRUD and more features
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+#### You can easily run these commnds to run the project.
+###### - composer install
+###### - npm install
+###### - php artisan key:generate
+###### - php artisan migrate
+###### - php artisan db:seed
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+#### And Finally you need to run the following 2 commnds to run the project.
+###### - php artisan serve
+###### - npm run dev
+#### And in your browser, you can type localhost:8000/home in url address bar.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Login Page
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![Screenshot (14)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/3b936fd5-88e8-4616-8445-d28bf5971d6c)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Dashboard Page with User Notification
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![Screenshot (15)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/9b47ceee-52b9-4b45-8927-f906e790576f)
 
-## Laravel Sponsors
+## User List Page (Random data with faker)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+![Screenshot (16)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/c1c67564-043d-48e1-a484-2638804bc054)
 
-### Premium Partners
+## Create User Page
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![Screenshot (17)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/a2b945a8-a2c7-4545-9cda-6494611a8374)
 
-## Contributing
+## My Profile Page
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Screenshot (18)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/53698cdf-0c52-47c0-aaa6-b92877ed617f)
 
-## Code of Conduct
+## Task List Page (Random data with faker)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Screenshot (19)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/75a2c4ca-a7d9-49d7-a994-8cbe51aa6536)
 
-## Security Vulnerabilities
+## Create Task Page
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Screenshot (20)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/d33ddd3a-ef30-4dbe-9e1d-caccd4b386e4)
 
-## License
+## My Task Page
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot (21)](https://github.com/zarnitun1233/Task_Management_System/assets/96018028/fd489c5f-83d5-49a9-8721-3785a28a402e)
+
+
+#### Discover the project to see more features.
+#### P.S - I don't own admin dashboard design. This is free admin dashboard template from internet. You can easily download from internet.
